@@ -1,47 +1,34 @@
-WorkFlow
--Es cuando se esta trabajando tan concentrado que no sientes el flujo de tiempo.
--Un WorkFlow plantear la secuencia de tareas que permitan realizar un trabajo con mayor eficiencia y productividad
--Eliminar las distracciones
--En el pasado se usaba un modelo tipo casacada. En el cual cada sección trabajaba de forma separada y se mandaba el paquete 
-    de una seccion a otra
--En la actulidad se un modelo donde todos los departamentos trabajan en conjunto por lo que el ambiente y la comunición
-    son esenciales para que el flujo funcione.
+El editor del texto como eje (Hub)
+-Tu trabajas todo el día en tu editor de texto:
+    VS Code
+    IntelliJ IDEA,
+    PyCharm
+-Ademas usas otra herramientas que no están integradas a tu editor:
+    GitHub
+    Jira
+    Slack
+    Email
+-Cambios de contexto reducen la productividad
 
-Shift Left Principle
--Es un principio conocido en DevOps, suponiendo que ya tenemos un workflow establecido el pricipio se enfoca en optimizar 
-    el workflow actual, comprimiendolo en tiempo y obteniendo la misma o mayor calidad.
+Integración de herramientas
+-Todos los editores de texto modernos son extensibles:
+    VS Code
+    IntelliJ IDEA (y todos los editores de JetBrains)
+    PyCharm
+    Visual Studio
+    Android Studio
+-La idea esencial es mejorar la productividad eliminando pasos inecesarios
 
-Beneficios del flujo mordeno
--Corregir errorer en la producción es mas costoso que hacerlo desde el principio por lo que se reducen costos y se vuelve mas
-    eficiente el proceso
+Beneficios de la integracion de herramientas en el editor
+-Ahorra tiempo
+-Reduce distracciones
+-Tienes acceso a todo el código en todo momento
+-Mejoras la calidad
+-Mejoras la comunicación
+-No tienes que cambiarde herramientas
 
-Implementeación del flujo moderno
-Personal
--Podemos aportar a mejorar el workflow usando herramientas que mejoren el desempeño como lo son usar
-    pull request, issue tracker o comentarios en nuestro codigo
-Equipo
--Podemos mejorar la eficiencia mejorando la comunicación entre los integrantes del equipo por lo que herramientas como 
-    Feedback request, Code chat y la transparencia podrian ser muy utiles.
-Organización
--Cuando nuestro equipo este trabajando con un buen workflow moderno podemos enviarlo a la organizacion la cual integrara
-    la parte administrativa, documentación y el analisis.
-
-Frecuencia en Colaboración
-Tradicional
--Se hace una revisión de código al terminar el desarrollo (GitHub)
-Moderno
--Se hacen muchas revisiones de codigo pequeñas a medida que se va desarrollando el codigo (Se requieren herramientas distintas)
-
-Prácticas de Ingeniería de Google
-Google, empresa lider en el desarrollo de software usando el siguiente modelo de revision de codigo
--Revisiones de código en menos de 24 horas, siendo su actual promedio de 4 horas
--Revisiones con menos código: Change Lists (CL) digeribles rápidamente, menos de 100 líneas,
-    su actual promedio es de 24 lineas
-
-Como aplicar Shift Left en desarrollo
-Colaboracion hiper-frecuente
--Es mas facil hacer consultas con tu equipo y recibir una respuesta
-Integración de herramientas para evitar cambio de contexto
--Tener las mismas herramientas de trabajo con el resto del grupo de trabajo para evitar problemas en general
-La calidad se incorpora en el proceso
--Tener la opinion de los revisores para asi poder realizar cambios lo antes posible
+Evolucion del flujo hacie shift left
+-Pull request
+-Feedback request
+-Discusion Informal (Code Chat)
+-Documentación
